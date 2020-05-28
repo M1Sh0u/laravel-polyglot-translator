@@ -21,17 +21,10 @@
     "illuminate/translation": "~5.8.0|^6.0|^7.0",
     "m1sh0u/polyglot-php": "1.*"
   },
-  "require-dev": {
-    "phpunit/phpunit": "^8.0"
-  },
   "autoload": {
     "psr-4": {
       "LaravelPolyglot\\": "src"
     }
-  },
-  "scripts": {
-    "test": "vendor/bin/phpunit tests",
-    "test-win": "vendor\\bin\\phpunit tests"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
