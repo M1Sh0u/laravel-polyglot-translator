@@ -1,7 +1,9 @@
 <?php
 
 return [
+    // @see https://github.com/M1Sh0u/polyglot.php for the meaning of each polyglot configuration parameter
     'polyglot' => [
+
         'allowMissing' => true,
         'delimiter' => '||||',
         'interpolation' => [
