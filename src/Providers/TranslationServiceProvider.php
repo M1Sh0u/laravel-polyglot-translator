@@ -35,6 +35,16 @@ class TranslationServiceProvider extends IlluminateTranslationServiceProvider
     }
 
     /**
+     * Get the services provided by the provider.
+     *
+     * @return array
+     */
+    public function provides()
+    {
+        return array_merge(parent::provides(), ['translation.polyglot']);
+    }
+
+    /**
      * Register the polyglot instance.
      */
     protected function registerPolyglot()
