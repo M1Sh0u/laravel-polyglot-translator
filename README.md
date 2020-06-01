@@ -66,10 +66,10 @@ return [
 ];
 ```
 
+> Note: publishing assets doesn't work out of the box in Lumen. Instead you have to copy the files from the repo.
+
 ### Usage
 For more information about Polyglot.php' capabilities please follow its [documentation](https://github.com/M1Sh0u/polyglot.php)
-
-> Note: publishing assets doesn't work out of the box in Lumen. Instead you have to copy the files from the repo.
 
 ### License
 The MIT License (MIT). Please see License File for more information.
